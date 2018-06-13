@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pokemon API</title>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+    </head>
+    <body>
+        <div class="container">
+            <h1>Pokemon API</h1>
+            <p> Hello my name is Dianangelica Gomez and this is my
+            Pokemon API. The Pokemon API gives you the cards image,
+            cards set, name, rarity, and HP. It can be used to identify 
+            pokemon you've never known about or can just be used to search
+            for your favorite pokemon for fun!</p>
+            <input placeholder = 'Enter Pokemon Here'  id='pokemon'>
+            <button onClick={getData()} > Search </button>
+            
+
+            <div id="results" class="row">
+            </div>
+           
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
